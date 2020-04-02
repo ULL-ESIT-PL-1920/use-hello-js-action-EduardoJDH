@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: EduardoJDH/hello-action-js@v2
+        uses: EduardoJDH/hello-action-js@v3
         id: hello
         with:
           who-to-greet: 'Eduardo Díaz'
